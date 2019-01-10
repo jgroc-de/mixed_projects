@@ -1,0 +1,11 @@
+#!/bin/bash
+
+date >> /var/log/update_script.log
+echo "update" >> /var/log/update_script.log
+apt-get -yq update >> /var/log/update_script.log 2>&1
+echo "upgrade" >> /var/log/update_script.log
+apt-get -yq upgrade >> /var/log/update_script.log 2>&1
+echo " --- " >> /var/log/update_script.log
+
+## et creer une crontab root avec la commande "sudo crontab -e" et ajouter la ligne suivante
+## 0 4 * * 1 bash emplacement_du_scipt_en_chemin_absolu

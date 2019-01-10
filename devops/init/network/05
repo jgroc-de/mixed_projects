@@ -1,0 +1,1 @@
+dig slash16.org | grep slash16.org | grep A | awk '{print $5}' | sort

@@ -1,0 +1,3 @@
+host 42.fr | sort | grep address
+
+#l adresse en 10.x.x.x

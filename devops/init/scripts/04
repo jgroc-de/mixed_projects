@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ok='/etc/crontab: Réussi'
+FILE=/var/tmp/test04
+TEST=$(md5sum -c $FILE)
+
+if [ -e $FILE ] && [ "$TEST" != "$ok" ]
+then
+	echo "lol" | mail -s "/etc/crontab modified" root
+else
+	md5sum /etc/crontab > /var/tmp/test04
+fi
+
+# modifier crontab avec "sudo crontab -e" et ajouter
+# 0 0 * * * bash chemin_entier_du_script
