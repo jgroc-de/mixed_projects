@@ -1,0 +1,13 @@
+.name "zork"
+.comment "I'M ALIIIIVE*!@$%^&*#s"
+
+#"]" cause error in name and comment
+#r_asm accepts it
+
+
+lele:
+
+lex:
+
+live	%1
+	

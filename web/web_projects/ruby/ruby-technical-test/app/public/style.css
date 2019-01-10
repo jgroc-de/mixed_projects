@@ -1,0 +1,33 @@
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+footer {background-color:#1fbed5}
+
+img {width:100%}
+
+.gg-blue, .gg-blue-hover:hover, .gg-button:hover {background-color:#1fbed5}
+
+.gg-blue-hover, .gg-button {background-color: inherit}
+
+.gg-logo {
+	width: 125px;
+	position: relative;
+	bottom: 6px;
+}
+
+.gg-button {
+	padding: 12x 24px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.gg-img {
+	height:300px;
+	background-image:url(<%= post[:photo] %>);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+.gg-min {width:50px}
+
+.gg-link {text-decoration: none}

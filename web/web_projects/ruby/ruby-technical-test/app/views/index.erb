@@ -1,0 +1,30 @@
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+	<% settings.database.each do |post| %>
+		<!-- Blog entry -->
+		<div class="w3-card-4 w3-margin w3-white">
+			<% if post[:photo] %>
+				<div class="gg-img" style="background-image:url(<%= post[:photo] %>);">
+				</div>
+			<% end %>
+			<div class="w3-container">
+				<h3><b><%= h post[:title] %></b></h3>
+			</div>
+
+			<div class="w3-container">
+				<p><%= h post[:content] %></p>
+				<div class="w3-row">
+					<div class="w3-col m6 s12 w3-margin-bottom">
+						<a href="/article/<%= post[:id] %>"><button type="button" class="w3-padding-large gg-button w3-border"><b>READ MORE »</b></button></a>
+					</div>
+					<div class="w3-col m6 w3-hide-small">
+						<p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag"><%= settings.comments[post[:id]].size %></span> | <b>Rated  </b><%= post[:rating].to_i %><i class="fas fa-star"></i></span></p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<% end %>
+
+	<!-- END BLOG ENTRIES -->
+</div>

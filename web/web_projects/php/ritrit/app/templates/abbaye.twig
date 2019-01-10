@@ -1,0 +1,220 @@
+{% extends 'layout.html.twig' %}
+
+{% block header %}
+    <a href={{ url }}><h1>Test {{ name }}</h1></a>
+    <p>{{ h2 }}</p>
+{% endblock %}
+
+{% block main %}
+    <form class="pure-form pure-form-stacked gg-form" action="{{ path_for('mail1') }}" method="post" >
+        <fieldset class="pure-u-g">
+            <div id="item1" class="pure-u-1">
+                <span class="pure-u-1">1/3 - Pour vous contacter:</span>
+
+                <div class="pure-u-2-5 pure-u-md-4-24">
+                    <label for="civilite"></label>
+                    <select id="civilite" name="civilite" class="pure-u-23-24">
+                        <option>Mr</option>
+                        <option>Mme</option>
+                        <option>Mlle</option>
+                    </select>
+                </div>
+
+                <div class="pure-u-1 pure-u-md-10-24">
+                    <label for=surname></label>
+                    <input type=text id="name" name="surname" class="pure-u-1" placeholder="Nom" required>
+                </div>
+
+                <div class="pure-u-1 pure-u-md-9-24">
+                    <label for=name></label>
+                    <input type=text id=name name="name" class="pure-u-1" placeholder="Prénom" required>
+                </div>
+                <div class="pure-u-1 pure-u-md-2-3">
+                    <label for=birthdate>date de naissance</label>
+                    <input type=date id=birthdate name="birtdate" class="" required>
+                </div>
+
+                <div class="pure-u-1 pure-u-md-2-3">
+                    <label for=email></label>
+                    <input  type=email id=email name="email" class="pure-u-1" placeholder="email@mail.fr" required>
+                </div>
+
+                <div class="pure-u-1 pure-u-md-2-3">
+                    <label for=tel></label>
+                    <input id=tel name="tel" type=tel class="pure-u-1" placeholder="n° de téléphone" required>
+                </div>
+
+                <div class="pure-u-21-24 gg-lorem">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </div>
+
+                <div class="pure-u-1-2 pure-u-md-2-3"></div>
+                <button type=button class="pure-u-11-24 pure-u-md-7-24 pure-button button-gg" onclick="displayForm(2)">
+                    <i class="fa fa-toggle-right"></i>
+                    Suite
+                </button>
+            </div>
+
+            <div id="item2" class="pure-u-1" hidden>
+                <span class="pure-u-1">2/3 - Objet et date du séjour:</span>
+                <div class="pure-u-1">
+                    <label for=object>Je voudrais venir pour:</label>
+                    <textarea id=object name=object class="pure-u-1 pure-u-md-2-3" required></textarea>
+                </div>
+                <div class="pure-u-11-24">
+                    <label for=begin>Du</label>
+                    <input id=begin name=begin class="pure-u-1" type="date" required>
+                </div>
+                <div class="pure-u-11-24">
+                    <label for=end>au</label>
+                    <input id=end name=end type="date" class="pure-u-1" required>
+                </div>
+
+                <span class="pure-u-1">
+                    J'ai envie de discuter avec un frère ou une une sœur:
+                </span>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for=tchat1 class="pure-radio">
+                        <input id=tchat1 type="radio" name="contact"> Oui
+                    </label>
+                </div>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for=tchat2 class="pure-radio">
+                        <input  id=tchat2 name=tchat type="radio" name="contact"> Non
+                    </label>
+                </div>
+
+                <div class="pure-u-md-1-3"></div>
+                <button type=button class="pure-u-11-24 pure-u-md-7-24 pure-button" onclick="displayForm(1)">
+                    Retour
+                    <i class="fa fa-toggle-left"></i>
+                </button>
+                <button type=button class="pure-u-11-24 pure-u-md-7-24 pure-button button-gg" onclick="displayForm(3)">
+                    <i class="fa fa-toggle-right"></i>
+                    Suite
+                </button>
+            </div>
+
+            <div id="item3" class="pure-u-1" hidden>
+                <span class="pure-u-1">3/3 - Logistique</span>
+
+                <span class="pure-u-1">
+                    Je veux une chambre:
+                </span>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="single" class="pure-radio">
+                        <input  id="single" type="radio" name="room">
+                        simple
+                    </label>
+                </div>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="double" class="pure-radio">
+                        <input  id="double" type="radio" name="room">
+                        double
+                    </label>
+                </div>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="mix" class="pure-radio">
+                        <input  id="mix" type="radio" name="room">
+                        dortoir
+                    </label>
+                </div>
+
+                <span class="pure-u-1">
+                    Pour les repas, je prendrai:
+                </span>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="breakfast" class="pure-checkbox">
+                        <input  id="breakfast" type="checkbox" name="dej">
+                        petit-dèj
+                    </label>
+                </div>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="lunch" class="pure-checkbox">
+                        <input  id="lunch" type="checkbox" name="dej">
+                        déjeuners
+                    </label>
+                </div>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="diner" class="pure-checkbox">
+                        <input  id="diner" type="checkbox" name="dej">
+                        dîners
+                    </label>
+                </div>
+
+                <span class="pure-u-1">
+                    Draps et serviettes:
+                </span>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="mine" class="pure-radio">
+                        <input  id="mine" type="radio" name="linge">
+                        je prends les miens
+                    </label>
+                </div>
+                <div class="pure-u-2-24">
+                </div>
+                <div class="pure-u-20-24">
+                    <label for="yours" class="pure-radio">
+                        <input  id="yours" type="radio" name="linge">
+                        je profites des vôtres
+                    </label>
+                </div>
+
+                <label for="terms" class="pure-checkbox">
+                    <input  id="terms" type="checkbox" name="terms" required>
+                    J'ai lu et j'accepte les <a href="{{ path_for('terms') }}" target="_blank">termes et conditions</a> de la réservation.
+                </label>
+
+                <div class="pure-u-md-1-3"></div>
+                <button type=button class="pure-u-11-24 pure-u-md-7-24 pure-button" onclick="displayForm(2)">
+                    Retour
+                    <i class="fa fa-toggle-left"></i>
+                </button>
+                <button type="submit" class="pure-u-11-24 pure-u-md-7-24 pure-button pure-button-primary">
+                    <i class="fa fa-paper-plane"></i>
+                    Envoyer
+                </button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}
+
+{% block script %}
+<script>
+function displayForm(id)
+{
+    var node;
+
+    for (var i = 1; i <= 3; i++)
+    {
+        node = document.getElementById('item' + i);
+        console.log(i);
+        console.log(id);
+        console.log(i === id);
+        console.log(i == id);
+        if (i === id)
+            node.hidden = false;
+        else
+            node.hidden = true;
+    }
+}
+</script>
+{% endblock %}

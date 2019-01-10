@@ -1,0 +1,22 @@
+{% extends 'layout.html.twig' %}
+
+{% block header %}
+    <h1>Test</h1>
+    <div>un service de réservation pour les tests</div>
+{% endblock %}
+
+{% block main %}
+    <h2>Plan du site:</h2>
+    <div>
+        <h3>Test</h3>
+        <ul>
+            {#<li><a href="{{ path_for('ganagobie') }}">Ganagobie</a></li>
+            <li><a href="{{ path_for('solesmes') }}">Solesmes</a></li>#}
+            <li><a href="{{ path_for('camagru') }}">Camagru</a></li>
+        </ul>
+        <h3>Autre</h3>
+        <ul>
+            <li><a href="{{ path_for('terms') }}">termes et conditions</a></li>
+        </ul>
+    </div>
+{% endblock %}
