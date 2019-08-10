@@ -1,0 +1,17 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->exclude('vendor')
+    ->in(__DIR__)
+;
+
+return PhpCsFixer\Config::create()
+	->setRules([
+        '@Symfony' => true,
+		'@PhpCsFixer' => true,
+		'@PSR2' => true,
+		'@PSR1' => true,
+		'no_short_echo_tag' => false
+    ])
+    ->setFinder($finder)
+;

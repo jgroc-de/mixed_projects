@@ -1,0 +1,218 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Booking	src/Entity/Booking.php	/^class Booking$/;"	c
+BookingController	src/Controller/BookingController.php	/^class BookingController extends AbstractController$/;"	c
+BookingRepository	src/Repository/BookingRepository.php	/^class BookingRepository extends ServiceEntityRepository$/;"	c
+BookingType	src/Form/BookingType.php	/^class BookingType extends AbstractType$/;"	c
+GetResourceController	src/Controller/GetResourceController.php	/^class GetResourceController extends AbstractController$/;"	c
+Kernel	src/Kernel.php	/^class Kernel extends BaseKernel$/;"	c
+Resource	src/Entity/Resource.php	/^class Resource implements \\JsonSerializable$/;"	c
+ResourceRepository	src/Repository/ResourceRepository.php	/^class ResourceRepository extends ServiceEntityRepository$/;"	c
+Version20190602140045	src/Migrations/Version20190602140045.php	/^final class Version20190602140045 extends AbstractMigration$/;"	c
+__construct	src/Controller/GetResourceController.php	/^    public function __construct(ResourceRepository $repository)$/;"	f
+__construct	src/Entity/Resource.php	/^    public function __construct()$/;"	f
+__construct	src/Repository/BookingRepository.php	/^    public function __construct(RegistryInterface $registry)$/;"	f
+__construct	src/Repository/ResourceRepository.php	/^    public function __construct(RegistryInterface $registry)$/;"	f
+__construct	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function __construct(array $buildParameters = [], $containerDir = __DIR__)$/;"	f
+__construct	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function __construct(array $buildParameters = [], $containerDir = __DIR__)$/;"	f
+__construct	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^    public function __construct(RequestContext $context, LoggerInterface $logger = null, string $defaultLocale = null)$/;"	f
+__construct	var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php	/^    public function __construct(RequestContext $context)$/;"	f
+a	var/cache/dev/ContainerJ2jMJVg/getDoctrine_Dbal_DefaultConnectionService.php	/^$a = new \\Doctrine\\DBAL\\Configuration();$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getDoctrine_Orm_DefaultEntityManagerService.php	/^$a = new \\Doctrine\\ORM\\Configuration();$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeAuthService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeControllerService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeEntityService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeRegistrationFormService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeUserService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/getRouting_LoaderService.php	/^$a = new \\Symfony\\Component\\Config\\Loader\\LoaderResolver();$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $a = ($this->privates['debug.stopwatch'] ?? ($this->privates['debug.stopwatch'] = new \\Symfony\\Component\\Stopwatch\\Stopwatch(true)));$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $a = new \\Doctrine\\Common\\Annotations\\AnnotationRegistry();$/;"	v
+a	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $a = new \\Sensio\\Bundle\\FrameworkExtraBundle\\Request\\ParamConverter\\ParamConverterManager();$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getDoctrine_Dbal_DefaultConnectionService.php	/^$a = new \\Doctrine\\DBAL\\Configuration();$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getDoctrine_Orm_DefaultEntityManagerService.php	/^$a = new \\Doctrine\\ORM\\Configuration();$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeAuthService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeControllerService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeEntityService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeRegistrationFormService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeUserService.php	/^$a = ($this->privates['maker.file_manager'] ?? $this->load('getMaker_FileManagerService.php'));$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/getRouting_LoaderService.php	/^$a = new \\Symfony\\Component\\Config\\Loader\\LoaderResolver();$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $a = ($this->privates['debug.stopwatch'] ?? ($this->privates['debug.stopwatch'] = new \\Symfony\\Component\\Stopwatch\\Stopwatch(true)));$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $a = new \\Doctrine\\Common\\Annotations\\AnnotationRegistry();$/;"	v
+a	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $a = new \\Sensio\\Bundle\\FrameworkExtraBundle\\Request\\ParamConverter\\ParamConverterManager();$/;"	v
+aliases	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->aliases = [$/;"	v
+aliases	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->aliases = [$/;"	v
+application	bin/console	/^$application = new Application($kernel);$/;"	v
+b	var/cache/dev/ContainerJ2jMJVg/getDoctrine_Dbal_DefaultConnectionService.php	/^$b = new \\Doctrine\\DBAL\\Logging\\LoggerChain();$/;"	v
+b	var/cache/dev/ContainerJ2jMJVg/getDoctrine_Orm_DefaultEntityManagerService.php	/^$b = new \\Doctrine\\Common\\Persistence\\Mapping\\Driver\\MappingDriverChain();$/;"	v
+b	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeAuthService.php	/^$b = ($this->privates['maker.generator'] ?? $this->load('getMaker_GeneratorService.php'));$/;"	v
+b	var/cache/dev/ContainerJ2jMJVg/getMaker_AutoCommand_MakeEntityService.php	/^$b = ($this->privates['maker.generator'] ?? $this->load('getMaker_GeneratorService.php'));$/;"	v
+b	var/cache/dev/ContainerJ2jMJVg/getRouting_LoaderService.php	/^$b = new \\Symfony\\Component\\HttpKernel\\Config\\FileLocator(($this->services['kernel'] ?? $this->get('kernel', 1)), ($this->targetDirs[3].'\/src\/Resources'), [0 => ($this->targetDirs[3].'\/src')]);$/;"	v
+b	var/cache/dev/ContainerRL0EU3G/getDoctrine_Dbal_DefaultConnectionService.php	/^$b = new \\Doctrine\\DBAL\\Logging\\LoggerChain();$/;"	v
+b	var/cache/dev/ContainerRL0EU3G/getDoctrine_Orm_DefaultEntityManagerService.php	/^$b = new \\Doctrine\\Common\\Persistence\\Mapping\\Driver\\MappingDriverChain();$/;"	v
+b	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeAuthService.php	/^$b = ($this->privates['maker.generator'] ?? $this->load('getMaker_GeneratorService.php'));$/;"	v
+b	var/cache/dev/ContainerRL0EU3G/getMaker_AutoCommand_MakeEntityService.php	/^$b = ($this->privates['maker.generator'] ?? $this->load('getMaker_GeneratorService.php'));$/;"	v
+b	var/cache/dev/ContainerRL0EU3G/getRouting_LoaderService.php	/^$b = new \\Symfony\\Component\\HttpKernel\\Config\\FileLocator(($this->services['kernel'] ?? $this->get('kernel', 1)), ($this->targetDirs[3].'\/src\/Resources'), [0 => ($this->targetDirs[3].'\/src')]);$/;"	v
+booking	src/Controller/BookingController.php	/^        $booking = $doctrine->getRepository(Booking::class)->findOneBy(['resource' => 'test']);$/;"	v
+booking	src/Controller/BookingController.php	/^        $booking = new Booking();$/;"	v
+bookings	src/Controller/BookingController.php	/^    public function bookings(Request $request): JsonResponse$/;"	f
+bookings	src/Entity/Resource.php	/^        $this->bookings = new ArrayCollection();$/;"	v
+bookings	src/Entity/Resource.php	/^    private $bookings;$/;"	v
+buildForm	src/Form/BookingType.php	/^    public function buildForm(FormBuilderInterface $builder, array $options)$/;"	f
+buildParameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->buildParameters = $buildParameters;$/;"	v
+buildParameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $buildParameters;$/;"	v
+buildParameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->buildParameters = $buildParameters;$/;"	v
+buildParameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $buildParameters;$/;"	v
+c	var/cache/dev/ContainerJ2jMJVg/getDoctrine_Dbal_DefaultConnectionService.php	/^$c = new \\Symfony\\Bridge\\Doctrine\\ContainerAwareEventManager(new \\Symfony\\Component\\DependencyInjection\\Argument\\ServiceLocator($this->getService, [$/;"	v
+c	var/cache/dev/ContainerJ2jMJVg/getRouting_LoaderService.php	/^$c = new \\Symfony\\Bundle\\FrameworkBundle\\Routing\\AnnotatedRouteControllerLoader(($this->privates['annotations.cached_reader'] ?? $this->getAnnotations_CachedReaderService()));$/;"	v
+c	var/cache/dev/ContainerRL0EU3G/getDoctrine_Dbal_DefaultConnectionService.php	/^$c = new \\Symfony\\Bridge\\Doctrine\\ContainerAwareEventManager(new \\Symfony\\Component\\DependencyInjection\\Argument\\ServiceLocator($this->getService, [$/;"	v
+c	var/cache/dev/ContainerRL0EU3G/getRouting_LoaderService.php	/^$c = new \\Symfony\\Bundle\\FrameworkBundle\\Routing\\AnnotatedRouteControllerLoader(($this->privates['annotations.cached_reader'] ?? $this->getAnnotations_CachedReaderService()));$/;"	v
+compile	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function compile()$/;"	f
+compile	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function compile()$/;"	f
+confDir	src/Kernel.php	/^        $confDir = $this->getProjectDir().'\/config';$/;"	v
+configureContainer	src/Kernel.php	/^    protected function configureContainer(ContainerBuilder $container, LoaderInterface $loader): void$/;"	f
+configureOptions	src/Form/BookingType.php	/^    public function configureOptions(OptionsResolver $resolver)$/;"	f
+configureRoutes	src/Kernel.php	/^    protected function configureRoutes(RouteCollectionBuilder $routes): void$/;"	f
+containerDir	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->containerDir = $containerDir;$/;"	v
+containerDir	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $containerDir;$/;"	v
+containerDir	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->containerDir = $containerDir;$/;"	v
+containerDir	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $containerDir;$/;"	v
+contents	src/Kernel.php	/^        $contents = require $this->getProjectDir().'\/config\/bundles.php';$/;"	v
+context	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^        $this->context = $context;$/;"	v
+context	var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php	/^        $this->context = $context;$/;"	v
+declaredRoutes	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^    private static $declaredRoutes;$/;"	v
+defaultLocale	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^        $this->defaultLocale = $defaultLocale;$/;"	v
+defaultLocale	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^    private $defaultLocale;$/;"	v
+dir	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $dir = $this->targetDirs[0] = \\dirname($containerDir);$/;"	v
+dir	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $dir = $this->targetDirs[0] = \\dirname($containerDir);$/;"	v
+doctrine	src/Controller/BookingController.php	/^        $doctrine = $this->getDoctrine();$/;"	v
+down	src/Migrations/Version20190602140045.php	/^    public function down(Schema $schema): void$/;"	f
+dynamicParameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $dynamicParameters = [];$/;"	v
+dynamicParameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $dynamicParameters = [];$/;"	v
+em	src/Controller/BookingController.php	/^        $em = $this->getDoctrine()->getManager();$/;"	v
+endDate	src/Entity/Booking.php	/^        $this->endDate = $endDate;$/;"	v
+endDate	src/Entity/Booking.php	/^    private $endDate;$/;"	v
+fileMap	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->fileMap = [$/;"	v
+fileMap	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->fileMap = [$/;"	v
+findByExampleField	src/Repository/BookingRepository.php	/^    public function findByExampleField($value)$/;"	f
+findOneBySomeField	src/Repository/BookingRepository.php	/^    public function findOneBySomeField($value): ?Booking$/;"	f
+form	src/Controller/BookingController.php	/^        $form = $this->createForm(BookingType::class, $booking);$/;"	v
+generate	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^    public function generate($name, $parameters = [], $referenceType = self::ABSOLUTE_PATH)$/;"	f
+getAnnotations_CachedReaderService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getAnnotations_CachedReaderService()$/;"	f
+getAnnotations_CachedReaderService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getAnnotations_CachedReaderService()$/;"	f
+getAnnotations_ReaderService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getAnnotations_ReaderService()$/;"	f
+getAnnotations_ReaderService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getAnnotations_ReaderService()$/;"	f
+getDebug_DebugHandlersListenerService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getDebug_DebugHandlersListenerService()$/;"	f
+getDebug_DebugHandlersListenerService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getDebug_DebugHandlersListenerService()$/;"	f
+getDefaultParameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getDefaultParameters()$/;"	f
+getDefaultParameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getDefaultParameters()$/;"	f
+getDescription	src/Migrations/Version20190602140045.php	/^    public function getDescription(): string$/;"	f
+getDoctrineService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getDoctrineService()$/;"	f
+getDoctrineService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getDoctrineService()$/;"	f
+getDynamicParameter	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private function getDynamicParameter($name)$/;"	f
+getDynamicParameter	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private function getDynamicParameter($name)$/;"	f
+getEndDate	src/Entity/Booking.php	/^    public function getEndDate(): ?\\DateTimeInterface$/;"	f
+getEventDispatcherService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getEventDispatcherService()$/;"	f
+getEventDispatcherService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getEventDispatcherService()$/;"	f
+getFrameworkExtraBundle_Event_IsGrantedService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getFrameworkExtraBundle_Event_IsGrantedService()$/;"	f
+getFrameworkExtraBundle_Event_IsGrantedService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getFrameworkExtraBundle_Event_IsGrantedService()$/;"	f
+getHttpKernelService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getHttpKernelService()$/;"	f
+getHttpKernelService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getHttpKernelService()$/;"	f
+getId	src/Entity/Booking.php	/^    public function getId(): ?int$/;"	f
+getId	src/Entity/Resource.php	/^    public function getId(): ?int$/;"	f
+getLocaleListenerService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getLocaleListenerService()$/;"	f
+getLocaleListenerService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getLocaleListenerService()$/;"	f
+getName	src/Entity/Resource.php	/^    public function getName(): ?string$/;"	f
+getParameter	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function getParameter($name)$/;"	f
+getParameter	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function getParameter($name)$/;"	f
+getParameterBag	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function getParameterBag()$/;"	f
+getParameterBag	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function getParameterBag()$/;"	f
+getParameterBagService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getParameterBagService()$/;"	f
+getParameterBagService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getParameterBagService()$/;"	f
+getProjectDir	src/Kernel.php	/^    public function getProjectDir(): string$/;"	f
+getRemovedIds	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function getRemovedIds()$/;"	f
+getRemovedIds	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function getRemovedIds()$/;"	f
+getRequestStackService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getRequestStackService()$/;"	f
+getRequestStackService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getRequestStackService()$/;"	f
+getResolveControllerNameSubscriberService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getResolveControllerNameSubscriberService()$/;"	f
+getResolveControllerNameSubscriberService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getResolveControllerNameSubscriberService()$/;"	f
+getResourceId	src/Entity/Booking.php	/^    public function getResourceId(): ?int$/;"	f
+getRouterListenerService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getRouterListenerService()$/;"	f
+getRouterListenerService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getRouterListenerService()$/;"	f
+getRouterService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getRouterService()$/;"	f
+getRouterService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getRouterService()$/;"	f
+getRouter_RequestContextService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getRouter_RequestContextService()$/;"	f
+getRouter_RequestContextService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getRouter_RequestContextService()$/;"	f
+getSensioFrameworkExtra_Controller_ListenerService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getSensioFrameworkExtra_Controller_ListenerService()$/;"	f
+getSensioFrameworkExtra_Controller_ListenerService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getSensioFrameworkExtra_Controller_ListenerService()$/;"	f
+getSensioFrameworkExtra_Converter_ListenerService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getSensioFrameworkExtra_Converter_ListenerService()$/;"	f
+getSensioFrameworkExtra_Converter_ListenerService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getSensioFrameworkExtra_Converter_ListenerService()$/;"	f
+getService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->getService = \\Closure::fromCallable([$this, 'getService']);$/;"	v
+getService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $getService;$/;"	v
+getService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->getService = \\Closure::fromCallable([$this, 'getService']);$/;"	v
+getService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $getService;$/;"	v
+getSessionListenerService	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function getSessionListenerService()$/;"	f
+getSessionListenerService	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function getSessionListenerService()$/;"	f
+getStartDate	src/Entity/Booking.php	/^    public function getStartDate(): ?\\DateTimeInterface$/;"	f
+hasParameter	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function hasParameter($name)$/;"	f
+hasParameter	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function hasParameter($name)$/;"	f
+id	src/Entity/Booking.php	/^    private $id;$/;"	v
+id	src/Entity/Resource.php	/^    private $id;$/;"	v
+input	bin/console	/^$input = new ArgvInput();$/;"	v
+invoke	src/Controller/GetResourceController.php	/^    public function invoke()$/;"	f
+isCompiled	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function isCompiled()$/;"	f
+isCompiled	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function isCompiled()$/;"	f
+jsonSerialize	src/Entity/Resource.php	/^    public function jsonSerialize()$/;"	f
+kernel	bin/console	/^$kernel = new Kernel($_SERVER['APP_ENV'], (bool) $_SERVER['APP_DEBUG']);$/;"	v
+kernel	public/index.php	/^$kernel = new Kernel($_SERVER['APP_ENV'], (bool) $_SERVER['APP_DEBUG']);$/;"	v
+load	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    protected function load($file, $lazyLoad = true)$/;"	f
+load	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    protected function load($file, $lazyLoad = true)$/;"	f
+loadedDynamicParameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $loadedDynamicParameters = [$/;"	v
+loadedDynamicParameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $loadedDynamicParameters = [$/;"	v
+locale	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^        $locale = $parameters['_locale']$/;"	v
+logger	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^        $this->logger = $logger;$/;"	v
+methodMap	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->methodMap = [$/;"	v
+methodMap	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->methodMap = [$/;"	v
+name	src/Entity/Resource.php	/^        $this->name = $name;$/;"	v
+name	src/Entity/Resource.php	/^    private $name;$/;"	v
+name	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $name = (string) $name;$/;"	v
+name	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $name = (string) $name;$/;"	v
+parameterBag	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^            $this->parameterBag = new FrozenParameterBag($parameters);$/;"	v
+parameterBag	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^            $this->parameterBag = new FrozenParameterBag($parameters);$/;"	v
+parameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^            $parameters = $this->parameters;$/;"	v
+parameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->parameters = $this->getDefaultParameters();$/;"	v
+parameters	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $parameters;$/;"	v
+parameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^            $parameters = $this->parameters;$/;"	v
+parameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->parameters = $this->getDefaultParameters();$/;"	v
+parameters	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $parameters;$/;"	v
+registerBundles	src/Kernel.php	/^    public function registerBundles(): iterable$/;"	f
+repository	src/Controller/GetResourceController.php	/^        $this->repository = $repository;$/;"	v
+repository	src/Controller/GetResourceController.php	/^    private $repository;$/;"	v
+request	public/index.php	/^$request = Request::createFromGlobals();$/;"	v
+resource	src/Entity/Booking.php	/^    private $resource;$/;"	v
+resourceId	src/Entity/Booking.php	/^        $this->resourceId = $resourceId;$/;"	v
+resourceId	src/Entity/Booking.php	/^    private $resourceId;$/;"	v
+response	public/index.php	/^$response = $kernel->handle($request);$/;"	v
+services	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->services = $this->privates = [];$/;"	v
+services	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->services = $this->privates = [];$/;"	v
+setEndDate	src/Entity/Booking.php	/^    public function setEndDate(\\DateTimeInterface $endDate): self$/;"	f
+setName	src/Entity/Resource.php	/^    public function setName(string $name): self$/;"	f
+setParameter	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    public function setParameter($name, $value)$/;"	f
+setParameter	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    public function setParameter($name, $value)$/;"	f
+setResourceId	src/Entity/Booking.php	/^    public function setResourceId(int $resourceId): self$/;"	f
+setStartDate	src/Entity/Booking.php	/^    public function setStartDate(\\DateTimeInterface $startDate): self$/;"	f
+srcApp_KernelDevDebugContainer	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^class srcApp_KernelDevDebugContainer extends Container$/;"	c
+srcApp_KernelDevDebugContainer	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^class srcApp_KernelDevDebugContainer extends Container$/;"	c
+srcApp_KernelDevDebugContainerUrlGenerator	var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php	/^class srcApp_KernelDevDebugContainerUrlGenerator extends Symfony\\Component\\Routing\\Generator\\UrlGenerator$/;"	c
+srcApp_KernelDevDebugContainerUrlMatcher	var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php	/^class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\\Bundle\\FrameworkBundle\\Routing\\RedirectableUrlMatcher$/;"	c
+startDate	src/Entity/Booking.php	/^        $this->startDate = $startDate;$/;"	v
+startDate	src/Entity/Booking.php	/^    private $startDate;$/;"	v
+staticRoutes	var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php	/^        $this->staticRoutes = [$/;"	v
+syntheticIds	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^        $this->syntheticIds = [$/;"	v
+syntheticIds	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^        $this->syntheticIds = [$/;"	v
+targetDirs	var/cache/dev/ContainerJ2jMJVg/srcApp_KernelDevDebugContainer.php	/^    private $targetDirs = [];$/;"	v
+targetDirs	var/cache/dev/ContainerRL0EU3G/srcApp_KernelDevDebugContainer.php	/^    private $targetDirs = [];$/;"	v
+up	src/Migrations/Version20190602140045.php	/^    public function up(Schema $schema): void$/;"	f
