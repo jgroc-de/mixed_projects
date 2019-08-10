@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#
+#                                                         :::      ::::::::    #
+#    Vagrantfile                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: llelievr <llelievr@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/05 16:31:47 by llelievr          #+#    #+#              #
+#    Updated: 2019/01/05 19:32:53 by llelievr         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Vagrant.configure("2") do |config|
+	config.vm.box = "debian/stretch64"
+	config.vm.provision :shell, path: "install.sh"
+	config.vm.network "forwarded_port", guest: 80, host: 8080
+	config.vm.network "forwarded_port", guest: 8081, host: 8081
+	config.vm.network "forwarded_port", guest: 4242, host: 4242
+	config.vm.network "forwarded_port", guest: 4243, host: 4243
+end

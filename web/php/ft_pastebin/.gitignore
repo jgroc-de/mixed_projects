@@ -1,0 +1,7 @@
+/server/backend/vendor/*
+.nfs*
+*.swp
+.*.swo
+tags
+tags*
+.vagrant

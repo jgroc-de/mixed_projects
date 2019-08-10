@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pastebin-like site.">
+    <title>ft_pastebin</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">    
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/blog.css">
+        <!--<![endif]-->
+</head>
+
+<body>
+	<div id="layout pure-g">
+		<header class="header pure-u-1">
+			<div class="title">
+				<h1 class="brand-title">ft_pastebin</h1>
+				<h2 class="brand-tagline">Paste your text >> get a link!</h2>
+			</div>
+		</header>
+
+	<!-- page content -->
+	<div class="pure-g">
+		<div class="content pure-u-1 pure-u-md-3-4">
+			<?php require __DIR__ . $page ?>
+		</div>
+
+		<!-- sidebar -->
+		<div class="content pure-u-1 pure-u-md-1-4">
+			<?php require __DIR__ . '/sidebar.html' ?>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="pure-menu pure-menu-horizontal">
+			<ul>
+				<li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>
+				<li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">GitHub</a></li>
+			</ul>
+		</div>
+	</footer>
+</div>
+<?php if ($script) { ?>
+	<script src=<?= $script ?>></script>
+<?php } ?>
+</body>
+</html>

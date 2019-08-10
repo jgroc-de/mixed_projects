@@ -1,0 +1,17 @@
+{
+    "name": "jgroc-de/ft_pastebin",
+    "description": "pastebin-like website.",
+    "type": "project",
+    "keywords": ["slim-framework"],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+		"slim/php-view": "^2.0",
+        "slim/flash": "^0.1.0",
+        "monolog/monolog": "^1.13"
+    }
+}

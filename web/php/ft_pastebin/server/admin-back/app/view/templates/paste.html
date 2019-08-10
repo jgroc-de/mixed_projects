@@ -1,0 +1,17 @@
+<!-- page content -->
+<div class="posts">
+	<h1 class="content-subhead">Your code</h1>
+
+	<form class="pure-form">
+		<fieldset class="pure-group">
+			<input id="title" type="text" class="pure-input-1" name="title" placeholder="Untitled" default="Untitled">
+			<textarea id="text" class="pure-input-1" rows="10" name="text" placeholder="Paste your text here" autofocus required></textarea>
+		</fieldset>
+
+		<button type="button" class="pure-button pure-input-1-2 pure-button-primary" onclick="createLink()">Get a link!</button>
+		<fieldset class="pure-input-1 pure-g">
+			<input id="link" type="text" class="pure-u-1-2" value="" readonly="">
+			<button type="button" value="" class="pure-button pure-u-1-4" onclick="copy2clipboard()">copy</button>
+		</fieldset>
+	</form>
+</div>
