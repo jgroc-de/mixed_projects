@@ -11,4 +11,4 @@ In C, the two last projects are:
 - [corewar](./algorithm/corewar)
 
 In PHP/JS, last insteresting project is:
-- [camagru(incomming)](./web/php/Camagru (raw PHP VS Vanilla JS)
+- [camagru](https://github.com/jgroc-de/camagru)
