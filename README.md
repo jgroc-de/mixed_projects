@@ -1,4 +1,4 @@
-#Archive
+# Mixed Projects (aka archive)
 
 You can find some of my school projects and other technical test for job interview
 
