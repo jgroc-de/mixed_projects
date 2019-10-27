@@ -1,0 +1,16 @@
+{
+    "name": "gg/hero-builder",
+    "authors": [
+        {
+            "name": "jgroc-de",
+            "email": "jgroc-de@student.42.fr"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Hero\\":"hero",
+			"Functions\\":"functions"
+		}
+	}
+}
