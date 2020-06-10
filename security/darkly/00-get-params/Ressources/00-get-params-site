@@ -1,0 +1,12 @@
+modify get params like in twitter link
+-> /index.php?page=redirect&site=127.0.0.1
+
+dont trust user input
+
+always validate user input with:
+ - type (int, string)
+ - length (for string)
+ - boundaries (min and max for int, array of values for string)
+ - escape everything
+
+Flag: b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3

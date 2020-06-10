@@ -1,0 +1,11 @@
+try  -> 1 union SELECT table_name,column_name FROM information_schema.columns
+give u all columns and users table column
+user with user_id = 5 is getThe Flag
+column title and comment contain information to get the flag
+
+we can also get mysql version with version()
+
+source: https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
+#Finding Database Structure in MySQL (M)
+
+FLAG: Sha256(albatroz) 44e9ff93e4737cb5d24cdb819025fbfcf4c89b9a9f36c4af3a3baf0b4ee89762 

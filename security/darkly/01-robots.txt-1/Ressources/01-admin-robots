@@ -1,0 +1,17 @@
+in the robots.txt:
+   -> found /whatever
+   -> go to /whatever
+   -> dl htpassword
+   -> password in md5 -> dragon
+
+go to /admin:
+   -> log with root/dragon
+
+robots.txt is public!
+credentials in public file
+
+lock folder with .htaccess
+or put it outside of the web folder and lock apache to the web folder
+or better, remove it from the web server if it doesnt need to be on it
+
+Flag: d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff

