@@ -20,9 +20,11 @@
 ## Ressources
 
 Ref:
+  - https://infosec.mozilla.org/guidelines/web_security.html
   - https://owasp.org/www-project-top-ten/
-cheatsheet:
 
+cheatsheet:
+  - https://infosec.mozilla.org/guidelines/web_security.html#web-security-cheat-sheet
   - https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html
   - https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/
   
