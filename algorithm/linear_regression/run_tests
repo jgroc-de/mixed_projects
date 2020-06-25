@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+from tests import math_test, stats_test, linear_regression_test
+
+# autorun in each files

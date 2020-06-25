@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+
+import sys
+import argparse
+from src import main, is_
+
+def get_mode(args) -> int:
+    mode = 0
+    if args.compute:
+        mode = mode | 1
+    if args.verbose:
+        mode = mode | 2
+    if args.file:
+        mode = mode | 4
+    return mode
+
+def usage():
+    raise(ValueError(
+        'estimator2000: need an input for a value of \'x\' (maybe a kilematrage) and output a \'y\' (maybe a price).\
+        \n\tneed one and only one argument wich need to be an integer.\
+        \n\tif values of a and b in equation of f(x) = ax + b is not already computed, it does now on the file ./data/data.csv.\
+        \n\toptions:\
+        \n\t\t-v: verbose mode - show graphs\
+        \n\t\t-c: force compute of thetas\
+        \n\t\t-f: file to use in dir data - ex: -f test will use data/test.csv and data/test_prophecy.csv\
+        \n\tex: ./estimator2000 -vcf test 150000'
+    ))
+
+usage_message = 'need an input for a value of \'x\' (maybe a kilometrage) and output a \'y\' (maybe a price).\
+    if values of a and b in equation of f(x) = ax + b is not already computed in data_prophecy.csv, they are equals to 0.'
+parser = argparse.ArgumentParser(description=usage_message)
+parser.add_argument('-v', '--verbose', action="store_true", help='verbose mode: show graphs')
+parser.add_argument('-c', '--compute', action="store_true", help='force compute of thetas. use data/data.csv as default')
+parser.add_argument('-f', '--file', type=str, default='data', help='file to use in dir data - ex: -f test will use data/test.csv and data/test_prophecy.csv')
+parser.add_argument('distance', type=int, help='distance (eq: of x)')
+args = parser.parse_args()
+distance = args.distance
+mode = get_mode(args)
+filename = args.file
+
+try:
+    main.compute_price(distance, filename, mode)
+except ValueError as error:
+    print(error)
+except FileNotFoundError as error:
+    print(error)
+    parser.print_help()

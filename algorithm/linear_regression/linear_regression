@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+
+import sys
+import argparse
+from src import linear_regression
+
+usage_message = 'linear_regression: compute an estimation of a and b of the equation f(x) = ax + b given a list of points.\
+        \n\tneed the name on of a csv file in argument. files must be in the data directory.'
+parser = argparse.ArgumentParser(description=usage_message)
+parser.add_argument('-v', '--verbose', action="store_true", help='verbose mode: show graphs')
+parser.add_argument('file', nargs='?', default='data', type=str, help='just the name of file without extension. ex: test -> ./data/test.csv')
+args = parser.parse_args()
+verbose_mode = args.verbose
+filename = args.file
+try:
+    linear_regression.run(filename, verbose_mode)
+except FileNotFoundError as error:
+    try:
+        print(error)
+        parser.print_help()
+    except ValueError as error:
+        print(error)
+except ValueError as error:
+    print(error)
+except ZeroDivisionError as error:
+    print('You need to provide at least 2 different point')
+    print(error)

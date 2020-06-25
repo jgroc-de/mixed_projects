@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+import sys
+import argparse
+from src import data_generator, is_
+
+usage_message = 'data_generator: generate some .csv files of random data in folder ./data for tests purpose.'
+parser = argparse.ArgumentParser(description=usage_message)
+parser.add_argument('number', nargs='?', default='3', type=int, help='number of csv files')
+args = parser.parse_args()
+count = args.number
+
+try:
+    data_generator.generate_random_data(count)
+except ValueError as error:
+    print(error)
