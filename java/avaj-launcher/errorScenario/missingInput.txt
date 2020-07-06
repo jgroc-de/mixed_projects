@@ -1,0 +1,10 @@
+25
+B1 2 3 20
+Balon B2 8 66
+JePlane  23 44 32
+Hlicopter H1 654 33
+Helicpter H2 22 33 44
+Helopter 98 68 99
+Baloon2 B3 102 22 34
+JetPlae J2 11 99 768
+Helicoopter H4 223 23 54
