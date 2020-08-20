@@ -1,4 +1,4 @@
-package com.misc;
+package src.flyables;
 
 public class IncorrectFlyableTypeException extends Exception {
     private static final long serialVersionUID = 1L;

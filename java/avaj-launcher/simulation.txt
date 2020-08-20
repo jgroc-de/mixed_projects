@@ -1,0 +1,509 @@
+Tower says: JetPlane#B1(0)registered to weather tower. gl&hf **
+Tower says: JetPlane#B1(1)registered to weather tower. gl&hf **
+Tower says: JetPlane#B1(2)registered to weather tower. gl&hf **
+Tower says: JetPlane#B1(3)registered to weather tower. gl&hf **
+
+ ** turns left: 99
+
+JetPlane#B1(0): I will need an umbrella - weather: RAIN - sum: 6 - height: 1
+JetPlane#B1(1): I will need a scarf - weather: SNOW - sum: -5 - height: -5
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 4 - height: 3
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 16 - height: 6
+Tower says: JetPlane#B1(1)UNregistered to weather tower. gg wp --
+
+ ** turns left: 98
+
+JetPlane#B1(0): I will need a scarf - weather: SNOW - sum: -1 - height: -6
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 16 - height: 5
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 28 - height: 8
+Tower says: JetPlane#B1(0)UNregistered to weather tower. gg wp --
+
+ ** turns left: 97
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 28 - height: 7
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 40 - height: 10
+
+ ** turns left: 96
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 40 - height: 9
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 52 - height: 12
+
+ ** turns left: 95
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 52 - height: 11
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 64 - height: 14
+
+ ** turns left: 94
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 64 - height: 13
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 76 - height: 16
+
+ ** turns left: 93
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 76 - height: 15
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 88 - height: 18
+
+ ** turns left: 92
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 88 - height: 17
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 100 - height: 20
+
+ ** turns left: 91
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 100 - height: 19
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 112 - height: 22
+
+ ** turns left: 90
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 112 - height: 21
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 124 - height: 24
+
+ ** turns left: 89
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 124 - height: 23
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 136 - height: 26
+
+ ** turns left: 88
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 136 - height: 25
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 148 - height: 28
+
+ ** turns left: 87
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 148 - height: 27
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 160 - height: 30
+
+ ** turns left: 86
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 160 - height: 29
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 172 - height: 32
+
+ ** turns left: 85
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 172 - height: 31
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 184 - height: 34
+
+ ** turns left: 84
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 184 - height: 33
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 196 - height: 36
+
+ ** turns left: 83
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 196 - height: 35
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 208 - height: 38
+
+ ** turns left: 82
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 208 - height: 37
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 220 - height: 40
+
+ ** turns left: 81
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 220 - height: 39
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 232 - height: 42
+
+ ** turns left: 80
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 232 - height: 41
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 244 - height: 44
+
+ ** turns left: 79
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 244 - height: 43
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 256 - height: 46
+
+ ** turns left: 78
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 256 - height: 45
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 268 - height: 48
+
+ ** turns left: 77
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 268 - height: 47
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 280 - height: 50
+
+ ** turns left: 76
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 280 - height: 49
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 292 - height: 52
+
+ ** turns left: 75
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 292 - height: 51
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 304 - height: 54
+
+ ** turns left: 74
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 304 - height: 53
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 316 - height: 56
+
+ ** turns left: 73
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 316 - height: 55
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 328 - height: 58
+
+ ** turns left: 72
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 328 - height: 57
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 340 - height: 60
+
+ ** turns left: 71
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 340 - height: 59
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 352 - height: 62
+
+ ** turns left: 70
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 352 - height: 61
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 364 - height: 64
+
+ ** turns left: 69
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 364 - height: 63
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 376 - height: 66
+
+ ** turns left: 68
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 376 - height: 65
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 388 - height: 68
+
+ ** turns left: 67
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 388 - height: 67
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 400 - height: 70
+
+ ** turns left: 66
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 400 - height: 69
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 412 - height: 72
+
+ ** turns left: 65
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 412 - height: 71
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 424 - height: 74
+
+ ** turns left: 64
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 424 - height: 73
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 436 - height: 76
+
+ ** turns left: 63
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 436 - height: 75
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 448 - height: 78
+
+ ** turns left: 62
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 448 - height: 77
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 460 - height: 80
+
+ ** turns left: 61
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 460 - height: 79
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 472 - height: 82
+
+ ** turns left: 60
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 472 - height: 81
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 484 - height: 84
+
+ ** turns left: 59
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 484 - height: 83
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 496 - height: 86
+
+ ** turns left: 58
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 496 - height: 85
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 508 - height: 88
+
+ ** turns left: 57
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 508 - height: 87
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 520 - height: 90
+
+ ** turns left: 56
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 520 - height: 89
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 532 - height: 92
+
+ ** turns left: 55
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 532 - height: 91
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 544 - height: 94
+
+ ** turns left: 54
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 544 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 556 - height: 96
+
+ ** turns left: 53
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 556 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 568 - height: 98
+
+ ** turns left: 52
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 568 - height: 97
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 580 - height: 100
+
+ ** turns left: 51
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 580 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 590 - height: 100
+
+ ** turns left: 50
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 591 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 583 - height: 93
+
+ ** turns left: 49
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 592 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 584 - height: 93
+
+ ** turns left: 48
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 602 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 596 - height: 95
+
+ ** turns left: 47
+
+JetPlane#B1(2): I will need a scarf - weather: SNOW - sum: 595 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 608 - height: 97
+
+ ** turns left: 46
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 596 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 620 - height: 99
+
+ ** turns left: 45
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 608 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 631 - height: 100
+
+ ** turns left: 44
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 620 - height: 97
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 632 - height: 100
+
+ ** turns left: 43
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 632 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 642 - height: 100
+
+ ** turns left: 42
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 643 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 635 - height: 93
+
+ ** turns left: 41
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 644 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 636 - height: 93
+
+ ** turns left: 40
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 654 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 648 - height: 95
+
+ ** turns left: 39
+
+JetPlane#B1(2): I will need a scarf - weather: SNOW - sum: 647 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 660 - height: 97
+
+ ** turns left: 38
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 648 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 672 - height: 99
+
+ ** turns left: 37
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 660 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 683 - height: 100
+
+ ** turns left: 36
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 672 - height: 97
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 684 - height: 100
+
+ ** turns left: 35
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 684 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 694 - height: 100
+
+ ** turns left: 34
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 695 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 687 - height: 93
+
+ ** turns left: 33
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 696 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 688 - height: 93
+
+ ** turns left: 32
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 706 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 700 - height: 95
+
+ ** turns left: 31
+
+JetPlane#B1(2): I will need a scarf - weather: SNOW - sum: 699 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 712 - height: 97
+
+ ** turns left: 30
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 700 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 724 - height: 99
+
+ ** turns left: 29
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 712 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 735 - height: 100
+
+ ** turns left: 28
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 724 - height: 97
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 736 - height: 100
+
+ ** turns left: 27
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 736 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 746 - height: 100
+
+ ** turns left: 26
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 747 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 739 - height: 93
+
+ ** turns left: 25
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 748 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 740 - height: 93
+
+ ** turns left: 24
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 758 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 752 - height: 95
+
+ ** turns left: 23
+
+JetPlane#B1(2): I will need a scarf - weather: SNOW - sum: 751 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 764 - height: 97
+
+ ** turns left: 22
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 752 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 776 - height: 99
+
+ ** turns left: 21
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 764 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 787 - height: 100
+
+ ** turns left: 20
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 776 - height: 97
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 788 - height: 100
+
+ ** turns left: 19
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 788 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 798 - height: 100
+
+ ** turns left: 18
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 799 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 791 - height: 93
+
+ ** turns left: 17
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 800 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 792 - height: 93
+
+ ** turns left: 16
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 810 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 804 - height: 95
+
+ ** turns left: 15
+
+JetPlane#B1(2): I will need a scarf - weather: SNOW - sum: 803 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 816 - height: 97
+
+ ** turns left: 14
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 804 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 828 - height: 99
+
+ ** turns left: 13
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 816 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 839 - height: 100
+
+ ** turns left: 12
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 828 - height: 97
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 840 - height: 100
+
+ ** turns left: 11
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 840 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 850 - height: 100
+
+ ** turns left: 10
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 851 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 843 - height: 93
+
+ ** turns left: 9
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 852 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 844 - height: 93
+
+ ** turns left: 8
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 862 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 856 - height: 95
+
+ ** turns left: 7
+
+JetPlane#B1(2): I will need a scarf - weather: SNOW - sum: 855 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 868 - height: 97
+
+ ** turns left: 6
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 856 - height: 93
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 880 - height: 99
+
+ ** turns left: 5
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 868 - height: 95
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 891 - height: 100
+
+ ** turns left: 4
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 880 - height: 97
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 892 - height: 100
+
+ ** turns left: 3
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 892 - height: 99
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 902 - height: 100
+
+ ** turns left: 2
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 903 - height: 100
+JetPlane#B1(3): I will need a scarf - weather: SNOW - sum: 895 - height: 93
+
+ ** turns left: 1
+
+JetPlane#B1(2): I will need a light - weather: FOG - sum: 904 - height: 100
+JetPlane#B1(3): I will need a light - weather: FOG - sum: 896 - height: 93
+
+ ** turns left: 0
+
+JetPlane#B1(2): I will need a cap - weather: SUN - sum: 914 - height: 100
+JetPlane#B1(3): I will need a cap - weather: SUN - sum: 908 - height: 95

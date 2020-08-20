@@ -1,8 +1,8 @@
-package com.flyables;
+package src.flyables;
 
-import com.tower.WeatherTower;
+import src.weather_tower.WeatherTower;
 
-public interface FlyableInterface {
+public interface Flyable {
     public void updateConditions();
 
     public void registerTower(WeatherTower weatherTower);

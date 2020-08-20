@@ -11,7 +11,7 @@ Aiming at implementing 3 design pattern:
 
 ```
 ./compile.sh
-java com.Application test/JetPlane.txt
+java src.Application test/JetPlane.txt
 ```
 
 ## Dependency

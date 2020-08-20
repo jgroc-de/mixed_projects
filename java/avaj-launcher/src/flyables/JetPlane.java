@@ -1,10 +1,11 @@
-package com.flyables;
+package src.flyables;
 
 import java.util.HashMap;
-import com.misc.Coordinates;
-import com.tower.WeatherTower;
 
-public class JetPlane extends Aircraft implements FlyableInterface {
+import src.lib.Coordinates;
+import src.weather_tower.WeatherTower;
+
+public class JetPlane extends Aircraft implements Flyable {
     protected String type = "JetPlane";
     private WeatherTower weatherTower;
     private static final HashMap<String, Coordinates> weatherCases;
@@ -30,7 +31,7 @@ public class JetPlane extends Aircraft implements FlyableInterface {
         String weather;
         
         weather = this.updateCoordinates(this.weatherTower, JetPlane.weatherCases);
-        this.printState(JetPlane.messages.get(weather), weather);
+        this.printState(JetPlane.messages.get(weather), weather, this.type);
     }
 
     public void registerTower(WeatherTower weatherTower) {

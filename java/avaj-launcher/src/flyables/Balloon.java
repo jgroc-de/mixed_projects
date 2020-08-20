@@ -1,21 +1,21 @@
-package com.flyables;
+package src.flyables;
 
 import java.util.HashMap;
 
-import com.misc.Coordinates;
-import com.tower.WeatherTower;
+import src.lib.Coordinates;
+import src.weather_tower.WeatherTower;
 
-public class Balloon extends Aircraft implements FlyableInterface {
+public class Balloon extends Aircraft implements Flyable {
     protected String type = "Balloon";
     private WeatherTower weatherTower;
     private static final HashMap<String, Coordinates> weatherCases;
     private static final HashMap<String, String> messages;
     static {
         weatherCases = new HashMap<>();
-        weatherCases.put("SUN", new Coordinates(0, 10, 2));
-        weatherCases.put("RAIN", new Coordinates(0, 5, 0));
-        weatherCases.put("FOG", new Coordinates(0, 1, 0));
-        weatherCases.put("SNOW", new Coordinates(0, 0, -7));
+        weatherCases.put("SUN", new Coordinates(2, 0, 4));
+        weatherCases.put("RAIN", new Coordinates(0, 0, -5));
+        weatherCases.put("FOG", new Coordinates(0, 0, -3));
+        weatherCases.put("SNOW", new Coordinates(0, 0, -15));
         messages = new HashMap<>();
         messages.put("SUN", "I need a cap");
         messages.put("RAIN", "I need an umbrella");
@@ -31,7 +31,7 @@ public class Balloon extends Aircraft implements FlyableInterface {
         String weather;
         
         weather = this.updateCoordinates(this.weatherTower, Balloon.weatherCases);
-        this.printState(Balloon.messages.get(weather), weather);
+        this.printState(Balloon.messages.get(weather), weather, this.type);
     }
 
     public void registerTower(WeatherTower weatherTower) {

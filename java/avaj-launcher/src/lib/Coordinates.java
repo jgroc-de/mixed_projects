@@ -1,4 +1,4 @@
-package com.misc;
+package src.lib;
 
 public class Coordinates {
     private int longitude;

@@ -1,8 +1,10 @@
-package com.flyables;
+package src.flyables;
 
 import java.util.HashMap;
-import com.misc.Coordinates;
-import com.tower.WeatherTower;
+
+import src.lib.Coordinates;
+import src.weather_tower.WeatherTower;
+import src.lib.IO;
 
 public class Aircraft {
     protected Long id;
@@ -50,8 +52,10 @@ public class Aircraft {
         return weather;
     }
 
-    protected void printState(String message, String weather) {
-        System.out.println(message + " - weather: " + weather + " - sum: " + this.coordinates.sum());
-
+    protected void printState(String message, String weather, String type) {
+        IO.writeAndSave(type + "#" + this.name + "(" + this.id + "): " +
+            message + " - weather: " + weather + " - sum: " + this.coordinates.sum() +
+            " - height: " + this.coordinates.getHeight()
+        );
     }
 }

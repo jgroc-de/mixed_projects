@@ -1,18 +1,18 @@
-package com.tower;
+package src.weather_tower;
 
-import com.misc.Coordinates;
+import src.lib.Coordinates;
 
-public class WeatherSingleton {
-    private static WeatherSingleton weatherSingleton;
+public class WeatherProvider {
+    private static WeatherProvider weatherSingleton;
     private static String[] weathers = {"SUN", "RAIN", "SNOW", "FOG"};
 
-    private WeatherSingleton() {
+    private WeatherProvider() {
         //constructor
     }
 
-    public static WeatherSingleton getInstance() {
+    public static WeatherProvider getInstance() {
         if (weatherSingleton == null) {
-            weatherSingleton = new WeatherSingleton();
+            weatherSingleton = new WeatherProvider();
         }
         return weatherSingleton;
     }
@@ -21,7 +21,7 @@ public class WeatherSingleton {
         int sum;
         
         sum = coordinates.getHeight() + coordinates.getLatitude() + coordinates.getLongitude();
-        return WeatherSingleton.weathers[this.abs(sum) % 4];
+        return WeatherProvider.weathers[this.abs(sum) % 4];
     }
 
     private int abs(int sum) {

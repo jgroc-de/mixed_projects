@@ -1,4 +1,4 @@
-5
+100
 JetPlane B1 0 0 1
 JetPlane B1 0 0 2
 JetPlane B1 0 0 3
